@@ -1,0 +1,20 @@
+﻿{
+  "manifest_version": 2,
+  "name": "vk remove stories",
+  "version": "0.0.0.1",
+  "description": "Удалаяет истории из фида Вк. По мановению Duran'a.",
+
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://vk.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+
+      "run_at": "document_idle"
+    }
+  ]
+}
