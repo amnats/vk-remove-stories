@@ -45,3 +45,8 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/
+/bin.zip
+/icon.png
+/pics/
+!/pics/icon.psd
+!/pics/Screenshot.psd
